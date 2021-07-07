@@ -1,0 +1,5 @@
+// default.json
+
+{
+    "mongoURI": "mongodb+srv://db_user:a1b2c3@cluster0.cp50y.mongodb.net/telematics?retryWrites=true&w=majority"
+}
