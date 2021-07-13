@@ -4,7 +4,7 @@ const express = require('express');
 const router = express.Router();
 
 // Load Driver model
-const Driver = require('../../models/Driver');
+const Driver = require('../../models/driver');
 
 // @route GET api/drivers/test
 // @description tests drivers route
