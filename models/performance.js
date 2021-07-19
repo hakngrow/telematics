@@ -15,6 +15,14 @@ const PerformanceSchema = new mongoose.Schema({
     type: Date,
     required: true,
   },
+  distance: {
+    type: mongoose.Decimal128,
+    required: true,
+  },
+  duration: {
+    type: mongoose.Decimal128,
+    required: true,
+  },
   speeding: {
     type: mongoose.Decimal128,
     required: true,
