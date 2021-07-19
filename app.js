@@ -7,6 +7,7 @@ var cors = require('cors');
 
 // routes
 const drivers = require('./routes/api/drivers');
+const performances = require('./routes/api/performances');
 
 const app = express();
 
@@ -23,6 +24,7 @@ app.get('/', (req, res) => res.send('Hello world!'));
 
 // use Routes
 app.use('/api/drivers', drivers);
+app.use('/api/performances', performances);
 
 const port = process.env.PORT || 8082;
 

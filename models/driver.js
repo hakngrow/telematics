@@ -33,4 +33,4 @@ const DriverSchema = new mongoose.Schema({
   },
 })
 
-module.exports = Player = mongoose.model('driver', DriverSchema)
+module.exports = Driver = mongoose.model('driver', DriverSchema)

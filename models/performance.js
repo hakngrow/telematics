@@ -45,4 +45,4 @@ const PerformanceSchema = new mongoose.Schema({
   },
 })
 
-module.exports = Player = mongoose.model('performance', PerformanceSchema)
+module.exports = Performance = mongoose.model('performance', PerformanceSchema)
