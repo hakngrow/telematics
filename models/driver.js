@@ -27,6 +27,12 @@ const DriverSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  smartdrive_login: {
+    type: String,
+  },
+  smartdrive_password: {
+    type: String,
+  },
   updated_date: {
     type: Date,
     default: Date.now,
